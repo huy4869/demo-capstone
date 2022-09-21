@@ -1,0 +1,66 @@
+.history {
+  .title {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: $font-root;
+    color: $color-white;
+    margin-bottom: 12px;
+  }
+  .line {
+    background: linear-gradient(270.85deg, #C07E04 -5.68%, #FAED91 27.3%, #C9841D 61.32%, #D69F3B 99.67%);
+    border-radius: 2px;
+    height: 2px;
+    margin-bottom: 32px;
+  }
+  .minus {
+    color: $color-red-1;
+  }
+  .bonus {
+    color: $color-green-1;
+  }
+  .map {
+    margin-top: 48px;
+    margin-bottom: 108px;
+    position: relative;
+    .el-select {
+      position: absolute;
+      right: 0;
+      top: -11px;
+      width: 130px;
+      height: 48px;
+      border-radius: 2px;
+      input {
+        border-radius: 2px;
+      }
+    }
+    h4 {
+      font-family: $font-root;
+      text-align: center;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px;
+      margin-bottom: 28px;
+    }
+  }
+  .history-table {
+    tbody {
+      color: #041B49;
+    }
+  }
+  .status-label {
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .button-row {
+    margin-bottom: 24px;
+    .el-select {
+      max-width: 161px;
+    }
+    .button {
+      float: right;
+      height: 48px;
+    }
+  }
+}

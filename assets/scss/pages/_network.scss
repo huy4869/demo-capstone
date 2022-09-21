@@ -1,0 +1,36 @@
+.network_component {
+  padding-bottom: 20px;
+  .profit_network_title {
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 33px;
+    text-align: justify;
+    text-transform: uppercase;
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  .hr_title {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(270.85deg, #C07E04 -5.68%, #FAED91 27.3%, #C9841D 61.32%, #D69F3B 99.67%);
+    border-radius: 2px;
+    margin: 24px 0;
+  }
+
+  .total_profit {
+    font-family: $font-mont;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .total_profit_value {
+    font-weight: 700;
+  }
+}
+
+
+.org-tree-node-label-inner {
+  color: red;
+}
